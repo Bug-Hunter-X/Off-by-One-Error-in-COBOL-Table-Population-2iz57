@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in COBOL programs: an off-by-one error when iterating over a table using a PERFORM VARYING loop. The bug causes incomplete data population, a potential source of logic errors in the program's later phases. The solution shows how to adjust the loop condition to correctly populate all table elements.
